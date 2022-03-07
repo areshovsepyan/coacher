@@ -34,9 +34,12 @@ export default {
 <style scoped>
 li {
   margin: 1rem 0;
-  border: 1px solid #424242;
+  border: 1px solid #ccc;
   border-radius: 0.75rem;
   padding: 1rem;
+}
+li:hover {
+  border-color: #0A64A4;
 }
 
 h3 {
