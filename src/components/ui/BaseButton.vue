@@ -39,7 +39,7 @@ a {
   border: 1px solid #3E94D1;
   color: white;
   cursor: pointer;
-  border-radius: 30px;
+  border-radius: 12px;
   margin-right: 0.5rem;
   display: inline-block;
 }
@@ -51,6 +51,8 @@ button:active {
   background-color: transparent;
   border-color: #0A64A4;
   color: #0A64A4;
+  transform: translateY(8px);
+  transition: all 0.5s;
 }
 
 .flat {

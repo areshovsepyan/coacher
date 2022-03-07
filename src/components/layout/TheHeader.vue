@@ -25,14 +25,16 @@ header a {
   color: #0A64A4;
   display: inline-block;
   padding: 0.75rem 1.5rem;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
+  border-radius: 12px;
 }
 
 a:active,
 a:hover,
 a.router-link-active {
-  border: 2px solid #03406A;
-  color: #03406A;
+  border: 1px solid #0A64A4;
+  color: #0A64A4;
+  
 }
 
 h1 {

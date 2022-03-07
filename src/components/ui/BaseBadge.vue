@@ -19,7 +19,7 @@ export default {
 .badge {
   background-color: #ccc;
   color: #0a64a4;
-  border-radius: 30px;
+  border-radius: 12px;
   padding: 0.5rem 1.5rem;
   margin-right: 0.5rem;
 }
