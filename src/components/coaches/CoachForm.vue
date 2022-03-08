@@ -37,6 +37,7 @@
 
 <script>
 export default {
+  emits: ['save-data'],
   data() {
     return {
       firstName: '',
@@ -55,7 +56,8 @@ export default {
         rate: this.rate,
         areas: this.areas,
       };
-      console.log(formData);
+
+      this.$emit('save-data', formData);
     },
   },
 };
@@ -82,14 +84,14 @@ input,
 textarea {
   display: block;
   width: 100%;
-  border: 1px solid #3E94D1;
+  border: 1px solid #3e94d1;
 }
 
 input:focus,
 textarea:focus {
-  background-color: #65a6d146;
+  background-color: #b5e0ff;
   outline: none;
-  border-color: #3E94D1;
+  border-color: #3e94d1;
 }
 
 input[type='checkbox'] {
@@ -99,7 +101,7 @@ input[type='checkbox'] {
 }
 
 input[type='checkbox']:focus {
-  outline: 1px solid #65A5D1;
+  outline: none;
 }
 
 h3 {
