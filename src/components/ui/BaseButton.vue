@@ -33,7 +33,7 @@ export default {
 button,
 a {
   text-decoration: none;
-  padding: 0.75rem 1.5rem;
+  padding: 0.5rem 1.5rem;
   font: inherit;
   background-color: #3E94D1;
   border: 1px solid #3E94D1;
