@@ -17,7 +17,7 @@
             >Refresh</base-button
           >
           <base-button v-if="!isCoach && !isLoading" link to="/register"
-            >Register as a Coach</base-button
+            >Register as Coach</base-button
           >
         </div>
         <div v-if="isLoading">
